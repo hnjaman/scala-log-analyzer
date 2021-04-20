@@ -1,0 +1,10 @@
+.fit-image{
+    width: 50%;
+    object-fit: cover;
+    height: 300px;
+}
+
+.menu-button button{
+    margin-left: 10px;
+    margin-right: 10px;
+}

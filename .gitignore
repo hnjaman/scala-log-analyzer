@@ -1,0 +1,90 @@
+### scala project ###
+log-analyzer/project/project
+log-analyzer/project/target
+log-analyzer/.mvn
+
+log-analyzer/.g8
+logs
+target
+/.idea
+/.idea_modules
+/.classpath
+/.project
+/.settings
+/RUNNING_PID
+
+
+### angular project ###
+# compiled output
+/log-analyzer-ui/dist
+/log-analyzer-ui/tmp
+/log-analyzer-ui/out-tsc
+# Only exists if Bazel was run
+/log-analyzer-ui/bazel-out
+
+# dependencies
+/log-analyzer-ui/node_modules
+
+# misc
+/log-analyzer-ui/.sass-cache
+/log-analyzer-ui/connect.lock
+/log-analyzer-ui/coverage
+/log-analyzer-ui/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/log-analyzer-ui/typings
+
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+### VS Code ###
+.vscode/
+
+
+# profiling files
+chrome-profiler-events*.json
+speed-measure-plugin*.json
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# System Files
+.DS_Store
+Thumbs.db
+
