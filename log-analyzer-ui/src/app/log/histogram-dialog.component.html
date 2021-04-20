@@ -1,0 +1,25 @@
+<h1 mat-dialog-title>Enter Data</h1>
+
+<form novalidate #form="ngForm" (ngSubmit)="loadData()">
+    <div mat-dialog-content>
+        <mat-form-field class="example-full-width" style="width: 230px;">
+            <mat-label>From</mat-label>
+            <input matInput type="text" name="datetimeFrom" [(ngModel)]="requestDataForm.datetimeFrom" />
+        </mat-form-field>
+
+        <mat-form-field class="example-full-width" style="width: 230px;">
+            <mat-label>To</mat-label>
+            <input matInput type="text" name="datetimeUntil" [(ngModel)]="requestDataForm.datetimeUntil" />
+        </mat-form-field>
+
+        <mat-form-field class="example-full-width" style="width: 230px;">
+            <mat-label>Phrase</mat-label>
+            <input matInput type="text" name="phrase" [(ngModel)]="requestDataForm.phrase" />
+        </mat-form-field>
+    </div>
+
+    <div mat-dialog-actions>
+        <button mat-button type="submit" style="background-color: #6c757d;" cdkFocusInitial>Submit</button>
+        <button mat-button type="button" style="background-color: gainsboro;" (click)="close()">Cancel</button>
+    </div>
+</form>

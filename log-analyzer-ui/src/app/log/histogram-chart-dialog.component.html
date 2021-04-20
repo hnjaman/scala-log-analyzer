@@ -1,0 +1,15 @@
+<h1 mat-dialog-title>{{dialogTitle}}</h1>
+
+<div>
+    <google-chart
+        [title]="title" 
+        [type]="type" 
+        [data]="histogramData"
+        [columns]="columnNames"
+        [options]="options">
+    </google-chart>
+</div>
+
+<div mat-dialog-actions>
+    <button mat-button type="button" style="background-color: gainsboro;" cdkFocusInitial (click)="close()" tabindex="-1">Close</button> 
+</div>

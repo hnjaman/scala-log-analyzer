@@ -1,0 +1,29 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col bg-dark text-white" id="menu" style="padding-bottom: 10px; padding-top: 10px; text-align: center;">
+            <a class="navbar-brand">Log Analyzer</a>
+        </div>
+    </div>
+
+    <div style="margin-top: 40px;" class="row">
+        <div style="text-align: center;" class="col-12 menu-button">
+            <button type="button" class="btn btn-outline-dark btn-sm" 
+                (click)="getFileStatus()">
+                File Status
+            </button>
+            <button type="button" class="btn btn-outline-dark btn-sm" 
+                (click)="getFileSize()">
+                File Size
+            </button>
+            <button type="button" class="btn btn-outline-dark btn-sm" 
+                (click)="openRequestFormDialog('data')">
+                Data
+            </button>
+
+            <button type="button" class="btn btn-outline-dark btn-sm" 
+                    (click)="openRequestFormDialog('histogram')">
+                Histogram
+            </button>
+        </div>
+    </div>
+</div>
